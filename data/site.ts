@@ -62,7 +62,7 @@ export const projects: Project[] = [
     title: "Gutter Guru Project",
     eyebrow: "Professional Contractor Work",
     summary:
-      "Contractor Work Project for the Automation Atlas, I was the lead developer on this project, built a fully working tool for client outreach using a my created database of contractors."
+      "Contractor Work Project for the Automation Atlas, I was the lead developer on this project, built a fully working tool for client outreach using a my created database of contractors.",
     tags: ["Client work", "Web Development", "Delivery"],
     status: "Developed · No private repository linked",
     href: "/professional-work#gutter-guru",
