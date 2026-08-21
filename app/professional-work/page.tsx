@@ -1,0 +1,4 @@
+import type { Metadata } from "next";
+import { PageHero } from "@/components/page-hero";
+export const metadata: Metadata = { title: "Professional Work" };
+export default function WorkPage() { return <><PageHero eyebrow="Professional work" title="Contribution, process, and outcomes." intro="Selected work is documented with care for client confidentiality and repository ownership." /><article className="case-study" id="gutter-guru"><div><p className="eyebrow">Case study · Draft</p><h2>Gutter Guru</h2><p>A professional web project that will be presented through the problems addressed, Jonathan’s specific contributions, the delivery process, and measurable outcomes.</p></div><div className="case-note"><strong>Publication boundary</strong><p>This is a case study only. No private, client-owned, or Josh-owned repository is linked or represented as Jonathan’s work.</p></div></article></>; }
