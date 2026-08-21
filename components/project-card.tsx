@@ -12,7 +12,7 @@ export function ProjectCard({ project }: { project: Project }) {
       </ul>
       <div className="card-footer">
         <span>{project.status}</span>
-        <Link href={project.href} aria-label={`View ${project.title}`}>Explore <span aria-hidden>↗</span></Link>
+        <Link href={project.repository ?? project.href} aria-label={`View ${project.title}`}>Explore <span aria-hidden>↗</span></Link>
       </div>
     </article>
   );
