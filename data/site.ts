@@ -189,13 +189,28 @@ export const pageContent = {
   academic: {
     hero: {
       eyebrow: "Academic archive",
-      title: "Coursework will live here—later.",
+      title: "Selected academic work, with context.",
       intro:
-        "This section is intentionally reserved for selected academic work after the flagship portfolio is established.",
+        "Coursework belongs here when it demonstrates a real process, technical growth, and a result worth explaining.",
     },
-    label: "Archive placeholder",
-    title: "Strong work first. Academic depth second.",
-    text: "Future additions will be curated, contextualized, and organized by skill—not uploaded as an undifferentiated course dump.",
+    label: "First archive entry · ACO 494",
+    title: "Inbox Avenger",
+    text: "A collaborative software project exploring local email classification, safer inbox management, iterative prototyping, and the tradeoffs between browser-based scanning and Gmail API integration.",
+    collaborators: "Team project with Benjamin Marshall and Jordan Wishom.",
+    documents: [
+      {
+        label: "Project paper",
+        detail: "Five-page design, implementation, testing, and reflection paper.",
+        href: "https://github.com/Jc007-code/inbox-avenger/blob/main/docs/academic/inbox-avenger-project-paper.pdf",
+      },
+      {
+        label: "Final status presentation",
+        detail: "Nineteen-slide walkthrough of Versions 1-5 and future direction.",
+        href: "https://github.com/Jc007-code/inbox-avenger/blob/main/docs/academic/inbox-avenger-final-status-report.pdf",
+      },
+    ],
+    repositoryLabel: "View the project repository",
+    repositoryUrl: "https://github.com/Jc007-code/inbox-avenger",
   },
   resume: {
     hero: {
