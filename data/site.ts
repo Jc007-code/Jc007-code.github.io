@@ -12,9 +12,9 @@ export const siteContent = {
   location: "Arizona",
   availability: "Open to meaningful technical work",
   description:
-    "Software, cybersecurity, systems, and automation—designed with clarity and built for practical use.",
+    "Software, cybersecurity, networking systems, data analysis, and automation—designed with clarity and built for practical use.",
   githubUrl: "https://github.com/Jc007-code",
-  footerNote: "Built in Arizona with Next.js, TypeScript, and a bias toward useful work.",
+  footerNote: "Arizona Based Applied Computing Graduate",
 } as const;
 
 export const navigation = [
@@ -55,16 +55,16 @@ export const projects: Project[] = [
     summary:
       "A modern web application centered on turning complex automation workflows into clear, usable systems.",
     tags: ["Next.js", "TypeScript", "Automation"],
-    status: "Flagship project · Details coming soon",
+    status: "Flagship project · Former Contracted Employment",
     href: "/projects#automation-atlas",
   },
   {
-    title: "Gutter Guru",
-    eyebrow: "Professional Case Study",
+    title: "Gutter Guru Project",
+    eyebrow: "Professional Contractor Work",
     summary:
-      "Selected professional work presented as a case study, focused on contribution, process, and outcomes.",
-    tags: ["Client work", "Web", "Delivery"],
-    status: "Case study only · No private repository linked",
+      "Contractor Work Project for the Automation Atlas, I was the lead developer on this project, built a fully working tool for client outreach using a my created database of contractors."
+    tags: ["Client work", "Web Development", "Delivery"],
+    status: "Developed · No private repository linked",
     href: "/professional-work#gutter-guru",
   },
   {
@@ -89,7 +89,7 @@ export const homeContent = {
     secondaryAction: ["More about me", "/about"],
   },
   fieldNotes: {
-    eyebrow: "Field notes · Arizona",
+    eyebrow: "Field notes ·  Located in Arizona",
     greekMotto: "Τέχνη · Λόγος · Πράξις",
     mottoTranslation: "craft · reason · practice",
     items: [
