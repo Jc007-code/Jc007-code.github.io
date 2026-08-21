@@ -169,7 +169,7 @@ export const pageContent = {
         "A professional web project that will be presented through the problems addressed, Jonathan’s specific contributions, the delivery process, and measurable outcomes.",
       boundaryTitle: "Publication boundary",
       boundaryText:
-        "This is a case study only. No private, client-owned, or Josh-owned repository is linked or represented as Jonathan’s work.",
+        "I worked for this company as a contractor and do not own or possess full rights to Gutter Guru as a whole. Because of those ownership and confidentiality boundaries, I cannot fully publish everything I personally developed, and I do not profit from presenting this case study. I discuss only the work I performed, the reasoning behind my decisions, and how those decisions contributed to completing the client project. The case study focuses on my full-stack development skills, coding background, delivery process, and measurable outcomes, with clear attribution and appropriate context.",
     },
   },
   lab: {
