@@ -16,16 +16,18 @@ export type Project = {
   tags: string[];
   status: string;
   href: string;
+  repository?: string;
 };
 
 export const projects: Project[] = [
   {
     title: "Inbox Avenger",
     eyebrow: "Cybersecurity + Software",
-    summary: "A security-focused product concept for investigating suspicious messages and helping people make safer decisions.",
-    tags: ["Cybersecurity", "Product engineering", "Threat analysis"],
-    status: "Flagship project — details coming soon",
+    summary: "A Chrome extension that combines transparent rules and local machine learning to classify suspicious, unwanted, promotional, transactional, and useful email.",
+    tags: ["Cybersecurity", "Chrome MV3", "Local ML"],
+    status: "Public repository · Version 5.1",
     href: "/projects#inbox-avenger",
+    repository: "https://github.com/Jc007-code/inbox-avenger",
   },
   {
     title: "Automation Atlas",
