@@ -50,7 +50,7 @@ export const projects: Project[] = [
     repository: "https://github.com/Jc007-code/inbox-avenger",
   },
   {
-    title: "Automation Atlas",
+    title: "Automation Atlas Website Development",
     eyebrow: "Full-stack Development",
     summary:
       "Contracted to continue developing the company’s website, using full-stack development practices and AI-assisted tools such as Claude to expand features, improve the user experience, and support ongoing delivery.",
