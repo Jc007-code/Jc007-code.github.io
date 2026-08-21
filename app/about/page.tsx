@@ -1,4 +1,25 @@
 import type { Metadata } from "next";
 import { PageHero } from "@/components/page-hero";
+import { pageContent } from "@/data/site";
+
 export const metadata: Metadata = { title: "About" };
-export default function AboutPage() { return <><PageHero eyebrow="About" title="A builder who likes the whole system." intro="I work across software, security, infrastructure, and automation—especially where understanding the connections matters as much as writing the code." /><section className="content-grid"><article><h2>My perspective</h2><p>I’m drawn to practical problems: tools that remove friction, systems that become more dependable, and technical ideas that need a clear path into the real world.</p><p>This portfolio begins with my strongest independent and professional work. Coursework and academic artifacts will be added later as a separate archive.</p></article><aside className="fact-card"><p className="eyebrow">Current focus</p><ul><li>Applied software development</li><li>Defensive cybersecurity</li><li>Systems and networking</li><li>Workflow automation</li><li>Technical communication</li></ul></aside></section></>; }
+
+export default function AboutPage() {
+  const content = pageContent.about;
+
+  return (
+    <>
+      <PageHero {...content.hero} />
+      <section className="content-grid">
+        <article>
+          <h2>{content.sectionTitle}</h2>
+          {content.paragraphs.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
+        </article>
+        <aside className="fact-card">
+          <p className="eyebrow">{content.focusTitle}</p>
+          <ul>{content.focusItems.map((item) => <li key={item}>{item}</li>)}</ul>
+        </aside>
+      </section>
+    </>
+  );
+}

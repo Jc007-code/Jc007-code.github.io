@@ -1,4 +1,20 @@
 import type { Metadata } from "next";
 import { PageHero } from "@/components/page-hero";
+import { pageContent } from "@/data/site";
+
 export const metadata: Metadata = { title: "Home Lab & Systems" };
-export default function LabPage() { return <><PageHero eyebrow="Home lab" title="Learning by operating real systems." intro="A living record of infrastructure experiments, network design, service deployment, troubleshooting, and automation." /><section className="three-grid">{[["Systems", "Linux services, configuration, observability, and resilient operations."], ["Networking", "Topology, segmentation, secure access, and diagnosing what happens between endpoints."], ["Automation", "Repeatable setup, maintenance workflows, and removing fragile manual steps."]].map(([title, text]) => <article key={title}><h2>{title}</h2><p>{text}</p><span>Lab notes coming soon</span></article>)}</section></>; }
+
+export default function LabPage() {
+  const content = pageContent.lab;
+
+  return (
+    <>
+      <PageHero {...content.hero} />
+      <section className="three-grid">
+        {content.items.map(([title, text]) => (
+          <article key={title}><h2>{title}</h2><p>{text}</p><span>{content.status}</span></article>
+        ))}
+      </section>
+    </>
+  );
+}
