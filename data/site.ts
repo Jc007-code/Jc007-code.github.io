@@ -43,7 +43,7 @@ export const projects: Project[] = [
     title: "Inbox Avenger",
     eyebrow: "Cybersecurity + Software",
     summary:
-      "A Chrome extension that combines transparent rules and local machine learning to classify suspicious, unwanted, promotional, transactional, and useful email.",
+      "A capstone project whose name and original concept I created and that I continue to own and develop. Built collaboratively with classmates during my final year of college, Inbox Avenger is a security-focused tool that combines transparent rules with local machine learning to classify suspicious, unwanted, promotional, transactional, and useful email—helping users declutter and reclaim the full potential of their inbox.",
     tags: ["Cybersecurity", "Chrome MV3", "Local ML"],
     status: "Public repository · Version 5.1",
     href: "/projects#inbox-avenger",
@@ -53,7 +53,7 @@ export const projects: Project[] = [
     title: "Automation Atlas",
     eyebrow: "Full-stack Development",
     summary:
-      "A modern web application centered on turning complex automation workflows into clear, usable systems.",
+      "Contracted to continue developing the company’s website, using full-stack development practices and AI-assisted tools such as Claude to expand features, improve the user experience, and support ongoing delivery.",
     tags: ["Next.js", "TypeScript", "Automation"],
     status: "Flagship project · Former Contracted Employment",
     href: "/projects#automation-atlas",
