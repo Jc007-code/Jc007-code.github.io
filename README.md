@@ -2,6 +2,14 @@
 
 Source for [Jc007-code.github.io](https://Jc007-code.github.io), Jonathan Cagle's portfolio for software development, cybersecurity, systems, and automation.
 
+The current visual direction is a rustic-modern Greek theme using limestone, Aegean blue, terracotta, olive, and bronze tones.
+
+## Customize the site
+
+- Edit `data/site.ts` for nearly all wording, links, navigation, and project details.
+- Edit the variables at the top of `app/globals.css` for colors and fonts.
+- Follow [CUSTOMIZE.md](CUSTOMIZE.md) for plain-language editing and publishing instructions.
+
 ## Sections
 
 - Home and About
